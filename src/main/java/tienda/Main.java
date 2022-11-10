@@ -70,7 +70,7 @@ public class Main {
         Runtime.getRuntime().addShutdownHook(new Thread(() -> {
             this.manager.closeDatabase();
             server.stop();
-        }));//Tests Neil
+        }));//Tests Neil asdadad
     }
 
     public static void main(String[] args) {
